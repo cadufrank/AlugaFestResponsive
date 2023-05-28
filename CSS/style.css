@@ -86,7 +86,7 @@ body{
     /* Aqui foi configurado um espaço entre os itens de acordo
      com o flex-boxing :D*/
     justify-content: space-around;
-    margin-left: 20px;
+    margin-left: 20%;
     
     
     
@@ -139,6 +139,9 @@ este é um container pai*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: auto;
+    margin-right: 100px;
+    
     
 }
 .conteudo-secundario-bloco{
@@ -146,6 +149,8 @@ este é um container pai*/
     flex-direction: row;
     align-items: center;
     gap: 10px;
+    margin-left: 10%;
+    
 
     
 }
@@ -193,9 +198,8 @@ color: rgba(29, 29, 29, 0.8);
     justify-content: center;
     background: linear-gradient(263.35deg, rgba(73, 190, 255, 0.3) 28.29%, rgba(200, 82, 255, 0.28) 107.57%);
     
-    height: 161.32px;
-    left: 1590px;
-    top: 1604.77px;
+    
+    
 
 }
 .rodape-background-dev{
@@ -205,12 +209,18 @@ color: rgba(29, 29, 29, 0.8);
     font-size: 10px;
     line-height: 160%;
     margin-top: 30px;
+    margin-left: 10%;
+    
     color: rgba(29, 29, 29, 0.8);
 }
 .social-media{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    margin-top: 1%;
+    margin-left: 10%;
+    
+    
     
 }
 .social-media-img{
@@ -257,6 +267,9 @@ color: rgba(29, 29, 29, 0.8);
         width: 90vw;
         height: 90vw;
 
+    }
+    .conteudo-secundario{
+        margin: 3%;
     }
     .conteudo-secundario-bloco{
         display: block;
