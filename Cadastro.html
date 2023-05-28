@@ -5,26 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Alugue seu salão de festas de forma fácil!">
-    <title>AlugaFest</title>
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css"/>
+    <title>AlugaFest Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/cadastrostyle.css"/>
 </head>
 <body>
+    
     <div class="retangulo"></div>
     <header class="cabecalho">
         <nav class="menu">
-            <a class="menu-item" href="/Cadastro.html">Cadastro</a>
+            <a class="menu-item" href="/Index.html">Menu Principal</a>
             <a class="menu-item" href="#">Consulta</a>
             <button class="menu-botao">Login</button>            
         </nav>
 
     </header>
     <main class="conteudo-principal">
-        <section class="conteudo-principal-escrito">
-            <div class="conteudo-principal-escrito-texto">
-                <h1 class="conteudo-principal-escrito-titulo">Aluga Fest</h1>
-                <p class="conteudo-principal-escrito-info">Já pensou em <strong>gerenciar as datas da sua festa</strong> e fazer a reserva online? Aproveite ao máximo o AF!</p>
+        <section class="conteudo-principal-formulario">
+            <div class="cadastro">
+                <h1 class="cadastro-titulo"> Cadastro </h1>
+                <p class="cadastro-info">Adicione as informações a seguir</p>
             </div>
-            <img class="conteudo-principal-escrito-imagem" src="/img/Ikbal.png" alt="Guri">
+            <form class="cpf">    
+                    <div class="formulario-caixa-cpf">
+                        <label class="formulario-caixa-texto">Informe CPF</label>
+                        <br/>
+                        <input class="campo-cpf" type="text" name="CPF" id="cpf">
+                        
+                    </div>             
+            </form>
+            
+            <form class="senha">
+               
+                <div class="formulário-caixa-senha">
+                    <label class="formulario-caixa-texto-senha">Informe uma Senha</label>
+                    <br/>
+                    <input class="campo-senha" type="password" name="Senha" id="password">
+                </div>
+           
+        </form>
+        <div class="gurizin">
+            <img class="gurizin-img" src="/img/Ikbal.png" alt="carinha">
+        </div>
+            
         </section>
         <section class="conteudo-secundario">
             <div class="conteudo-secundario-bloco">
