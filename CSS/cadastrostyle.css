@@ -13,21 +13,10 @@ font-family: 'Poppins', sans-serif;
 }
 body{
     font-size: 100%;
-    background: white;
-    
-    
-}
-.retangulo{
-    position: absolute;
-    width: 1440px;
-    height: 1002px;
-    left: 0px;
-    top: 0px;
-
     background: linear-gradient(263.35deg, rgba(73, 190, 255, 0.3) 28.29%, rgba(200, 82, 255, 0.28) 107.57%);
-    opacity: 0.6;
-    filter: blur(50px);
+   
 }
+
 /*---------------------Estilizando a barra de navegação-------------------------*/
 /*posição do cabeçalho na pagina - conteúdo PAI no flex box*/
 .cabecalho{
@@ -100,20 +89,15 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 300px;
+    text-align: center;
+    margin-left: 45%;
+    padding-top: 5%;
+    gap: 10%;
 }
 .cadastro{
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 10px;
-    
-    position:relative;
-    width: 60%;
-    height: 30%;
-    left: 580px;
-    right: 43.96%;
-    margin-top: 10%;
+    text-align: center;  
 
     font-family: 'Poppins';
     font-style: normal;
@@ -138,12 +122,15 @@ body{
     gap: 10px;
 }
 .formulario-caixa-cpf{
-    gap: 10%;
+    display: flex;
+    flex-direction: column;
     position:relative;
+    text-align: center;
+    gap: 10%;
     width: 60%;
     height: 30%;
-    left: 470px;
-    right: 43.96%;
+    
+    
     
 }
 .formulario-caixa-texto{
@@ -152,20 +139,18 @@ body{
     font-weight: 800;
     font-size: 30px;
     line-height: 48px;
+    
 
-color: #1D1D1D;
+    color: #1D1D1D;
 }
 .campo-cpf{
     
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    padding: 8px 40px;
+    padding: 4% 10%;
     
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 800;
+    
 
     border: 2px solid #1D1D1D;
     border-radius: 18px;
@@ -174,22 +159,23 @@ color: #1D1D1D;
 }
 
 /*Senha Container formulário - PAI*/
+
 .senha{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 10px;
 }
 .formulário-caixa-senha{
-    gap: 10%;
+    display: flex;
+    flex-direction: column;
     position:relative;
-    width: 60%;
-    height: 30%;
-    left: 470px;
-    right: 43.96%;
+    text-align: center;
+    gap: 10%;
     margin-top: 10%;
+    
 }
 .formulario-caixa-texto-senha{
     font-family: 'Poppins';
@@ -197,40 +183,53 @@ color: #1D1D1D;
     font-weight: 800;
     font-size: 30px;
     line-height: 48px;
+    text-align: center;
+    
 
-color: #1D1D1D;
+    color: #1D1D1D;
 }
 .campo-senha{
     
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    padding: 8px 50px;
-    margin: 10px;
-    
+    padding: 4% 10%;
     font-family: 'Poppins';
     font-style: italic;
     font-weight: 800;
-
     border: 2px solid #1D1D1D;
-    border-radius: 18px;
+    border-radius: 20px;
+    background-color: #ffffff;
 
 }
-
+.buton-send{
+    margin-top: 5%;
+    color: #0f0f0f;
+    font-size: 25px;
+    border: 2px solid #3d3d3d;
+    border-radius: 30px;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-style:normal;
+    font-weight: 700;
+        
+}
+.buton-send:hover {
+    color: #ffffff;
+    border: 2px solid #6d6d6d;
+    background-color: #6d6d6d;
+}
 
 /*Container Imagem - PAI*/
 .gurizin{
-    width: 500px;
-    height: 500px;
-    position: relative;
-    left: 270px;
-    right: 43.96%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25%;
+   
+
 
 }
 .gurizin-img{
-    width: 400px;
-    height: 400px;
+    width: 90%;
+    height: 90%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -364,12 +363,19 @@ color: rgba(29, 29, 29, 0.8);
         margin: 0%;
     }
 /*A fazer responsividade da tela de cadastro*/
+    .conteudo-principal-formulario{
+        display: block;
+        margin: 0%;
+    }
+    .gurizin{
+        display: block;
+        margin: 0%;
+        
 
+    }
     .gurizin-img{
         display: block;
-        width: 90vw;
-        height: 90vw;
-
+        margin: 0%;
     }
     
 
