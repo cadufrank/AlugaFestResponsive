@@ -13,7 +13,7 @@ font-family: 'Poppins', sans-serif;
 }
 body{
     font-size: 100%;
-    background: white;
+    background: linear-gradient(90deg, rgba(73, 190, 255, 0.3) 0%, rgba(200, 82, 255, 0.28) 100%);
     
     
     
