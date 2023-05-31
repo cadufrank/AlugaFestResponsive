@@ -14,7 +14,7 @@ font-family: 'Poppins', sans-serif;
 body{
     font-size: 100%;
     background: linear-gradient(90deg, rgba(73, 190, 255, 0.3) 0%, rgba(200, 82, 255, 0.28) 100%);
-   
+    
 }
 
 /*---------------------Estilizando a barra de navegação-------------------------*/
@@ -24,17 +24,17 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: end;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-right: 20px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
     background: linear-gradient(263.35deg, rgba(73, 190, 255, 0.3) 28.29%, rgba(200, 82, 255, 0.28) 107.57%);;
     
 }
 /*configurações do menu da barra de navegação - conteúdo PAI e filho de CABECALHO*/
 .menu{
     display: flex;
-    gap: 30px;
     justify-content: space-around;
+    gap: 30px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
@@ -74,10 +74,11 @@ body{
 /*------------------Estilizando o conteúdo principal------------------------*/
 /*Estilizando o Main - Conteúdo pai*/
 .conteudo-principal{
-    margin-bottom: 18px;
+    margin-bottom: 1%;
     display: flex;
     flex-wrap: wrap;
     border-bottom: #ffffff;
+    
     
 }
 /* Estilizando a primeira seção inteira - conteúdo pai ou father container*/
@@ -91,8 +92,8 @@ body{
     justify-content: center;
     text-align: center;
     margin-left: 45%;
-    padding-top: 5%;
-    gap: 10%;
+    padding-top: 1%;
+    
 }
 .cadastro{
     display: flex;
@@ -240,10 +241,10 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
-    margin-right: 100px;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 80%;
+    margin-left: 8%;
     
     
     
@@ -325,9 +326,6 @@ color: rgba(29, 29, 29, 0.8);
     gap: 10px;
     margin-top: 1%;
     margin-left: 10%;
-    
-    
-    
 }
 .social-media-img{
     width: 60px;
@@ -344,19 +342,31 @@ color: rgba(29, 29, 29, 0.8);
 
 @media screen and (max-width: 768px){
  
-
-
- @media screen and (max-width: 768px){
+   
     body{
         display: block;
         text-align: center;
         margin: 0%;
+        
+        
     }
     .cabecalho{
         display: block;
+        padding: 5%;
+        justify-content: center;
     }
     .menu{
+
         margin: 0px;
+        font-size: 120%;
+        text-align: center;
+
+    }
+    .menu-item{
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+        
     }
     .conteudo-principal{
         display: block;
@@ -365,42 +375,51 @@ color: rgba(29, 29, 29, 0.8);
 /*A fazer responsividade da tela de cadastro*/
     .conteudo-principal-formulario{
         display: block;
-        margin: 0%;
+        margin: 2%;
+    }
+    .cadastro{
+        display: block;
+        text-align: center;
+
+    }
+    .cadastro-info{
+        font-size: 100%;
+        padding: 3%;
     }
     .gurizin{
-        display: block;
-        margin: 0%;
-
+        
+        
 
     }
     .gurizin-img{
         display: block;
-        margin: 0%;
+        
+       
     }
     
 
 /*A fazer responsividade da tela de cadastro na parte acima*/
 
     .conteudo-secundario{
-        margin: 3%;
+        
+        margin: 2%;
+        margin-left: 3%;
+
     }
-    .conteudo-secundario-bloco{
-        display: block;
-    }
+    
     .conteudo-secundario-bloco{
         display: block;
         margin: 0%;
+    }
+    .conteudo-secundario-texto1{
+        text-align: center;
     }
     .rodape-background{
         display: block;
         margin: 0%;
         text-align: center;
     }
-    .conteudo-secundario-texto1{
-        text-align: center;
-    }
     .social-media{
         display: block;
     }
-}
 }

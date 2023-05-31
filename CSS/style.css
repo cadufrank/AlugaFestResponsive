@@ -19,7 +19,7 @@ body{
     
 }
 .retangulo{
-    position: absolute;
+    position:absolute;
     width: 1440px;
     height: 1002px;
     left: 0px;
@@ -97,12 +97,10 @@ body{
      que os elementos fiquemu do lado do outro e centralizados*/
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     /* Aqui foi configurado um espaço entre os itens de acordo
      com o flex-boxing :D*/
-    justify-content: space-around;
-    margin-left: 20%;
-    
-    
+  
     
 
 }
@@ -113,7 +111,8 @@ este é um container pai*/
     flex-direction: column;
     gap: 30px;
     text-align: center;
-    flex-wrap: wrap;
+    margin-left: 25%;
+    
 }
 
 
@@ -141,9 +140,14 @@ este é um container pai*/
 
     color: #1D1D1D;
 }
-.conteudo-principal-escrito-imagem{
-    height: 700px;
-    margin: 30px;
+.gurizin{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+    }
+.gurizin-img{
+    width: 150%;
+    height: 150%;
     
 }
 
@@ -153,10 +157,10 @@ este é um container pai*/
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: auto;
-    margin-right: 100px;
-    margin-top: 15%;
-    margin-bottom: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    max-width: 80%;
+    margin-left: 8%;
     
     
     
@@ -253,6 +257,7 @@ color: rgba(29, 29, 29, 0.8);
 
 /*------------------Responsividade usando media querys---------------------*/
 @media screen and (max-width: 768px){
+    
     body{
         display: block;
         text-align: center;
@@ -260,9 +265,22 @@ color: rgba(29, 29, 29, 0.8);
     }
     .cabecalho{
         display: block;
+        padding: 5%;
+        justify-content: center;
     }
     .menu{
+
         margin: 0px;
+        font-size: 120%;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .menu-item{
+        padding: 0%;
+        margin: 0%;
+        text-align: center;
+        
     }
     .conteudo-principal{
         display: block;
@@ -282,28 +300,30 @@ color: rgba(29, 29, 29, 0.8);
         text-align: center;
     }
 
-    .conteudo-principal-escrito-imagem{
+    .gurizin{
         display: block;
-        width: 90vw;
-        height: 90vw;
-
+        
+    }
+    .gurizin-img{
+        display: block;
+        
+       
     }
     .conteudo-secundario{
-        margin: 3%;
+        margin: 2%;
+        margin-left: 3%;
     }
-    .conteudo-secundario-bloco{
-        display: block;
-    }
+    
     .conteudo-secundario-bloco{
         display: block;
         margin: 0%;
+    }
+    .conteudo-secundario-texto1{
+        text-align: center;
     }
     .rodape-background{
         display: block;
         margin: 0%;
-        text-align: center;
-    }
-    .conteudo-secundario-texto1{
         text-align: center;
     }
     .social-media{
