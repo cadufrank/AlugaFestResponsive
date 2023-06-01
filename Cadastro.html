@@ -26,23 +26,23 @@
                 <p class="cadastro-info">Adicione as informações a seguir</p>   
             </div>
             
-            <form class="cpf">    
+            <form class="cpf" action="conexao.php" method="POST">
                     <div class="formulario-caixa-cpf">
                         <label class="formulario-caixa-texto">Informe CPF</label>
                         <br/>
-                        <input class="campo-cpf" type="text" name="CPF" id="cpf">
+                        <input class="campo-cpf" type="text" name="cpf" id="cpf">
                         
                     </div>             
             </form>
             
-            <form class="senha">
+            <form class="senha" action="conexao.php" method="POST">
                
                 <div class="formulário-caixa-senha">
                     <label class="formulario-caixa-texto-senha">Informe uma Senha</label>
                     <br/>
-                    <input class="campo-senha" type="password" name="Senha" id="password">
+                    <input class="campo-senha" type="password" name="senha" id="password">
                     <br/>
-                    <input class="buton-send" type="button" name="buton-send" value="Cadastrar"/>
+                    <input class="buton-send" type="submit" name="submit" value="Cadastrar"/>
                 </div>
                 
             </form>   

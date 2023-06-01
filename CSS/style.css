@@ -15,8 +15,6 @@ body{
     font-size: 100%;
     background: linear-gradient(90deg, rgba(73, 190, 255, 0.3) 0%, rgba(200, 82, 255, 0.28) 100%);
     
-    
-    
 }
 .retangulo{
     position:absolute;
@@ -274,7 +272,7 @@ color: rgba(29, 29, 29, 0.8);
         font-size: 120%;
         text-align: center;
         justify-content: center;
-
+        
     }
     .menu-item{
         padding: 0%;
